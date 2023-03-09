@@ -13,3 +13,4 @@ The 11-directories_permissions script adds execute permission to all users to al
 The 12-directory_permissions script creates a directory called my_dir with permissions 751 in the working directory
 The 13-change_group script changes the group owner to school for the file hello
 The 100-change_owner_and_group script changes the owner to vincent and the group owner to staff for all files and directories in the working directory
+The 101-symbolic_link_permissions script changes the owner and group owner of _hello to vincent and staff respectively
