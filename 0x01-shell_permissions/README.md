@@ -9,4 +9,5 @@ The 7-everybody script adds executiion permission to all users, to the file hell
 The 8-James_Bond script sets no permission to owner and group, and sets all the permissions to other users, to the file hello
 The 9-John_Doe script sets the mode of the file hellp to -rwxr-x-wx
 The 10-mirror_permissions script sets the mode of the file hello the same as olleh
-The 11-directories_permissions adds execute permission to all users to all subdirectories of the current directory
+The 11-directories_permissions script adds execute permission to all users to all subdirectories of the current directory
+The 12-directory_permissions script creates a directory called my_dir with permissions 751 in the working directory
