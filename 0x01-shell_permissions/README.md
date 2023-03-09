@@ -8,3 +8,4 @@ The 6-multiple_permissions script adds execute permisssion to the owner and the 
 The 7-everybody script adds executiion permission to all users, to the file hello
 The 8-James_Bond script sets no permission to owner and group, and sets all the permissions to other users, to the file hello
 The 9-John_Doe script sets the mode of the file hellp to -rwxr-x-wx
+The 11-directories_permissions adds execute permission to all users to all subdirectories of the current directory
