@@ -12,3 +12,4 @@ The 10-no_more_js script deletes all the regular files, not the root directories
 The 11-directories script counts the number of directories and sub-directories in the current directory. The current and parent directories are not taken into account, and hidden directories counted
 The 12-newest_files script displays the 10 newest files in the current directory, sorted from the newest to the oldest
 The 13-unique script takes a list of input and prints only words that appear exactly once, sorted in ascending alphabetical order
+The 14-findthatword script displays lines containing the pattern "root" from the file /etc/passwd
