@@ -23,3 +23,4 @@ The 21-reverse script reverses ththe spelling of an input
 The 22-users_and_homes script displays all users and their home directories, sorted by users, based on the /etc/passwd file
 The 100-empty_casks script finds all empty files and directories in the current directory and all sub-directories
 The 101-gifs script lists all the files with a .gif extension in the current directory and all its sub-directories.
+The 102-acrostic scrpt decodes acrostics that use the first letter of each line.
