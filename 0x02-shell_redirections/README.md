@@ -9,3 +9,4 @@ The 7-file script creates a file, I wonuldn't put the name of the file here, che
 The 8-cwd_state script writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it overwrites it. If the file ls_cwd_content does not exist, it creates it
 The 9-duplicate_last_line script duplicates the last line of the file iacta
 The 10-no_more_js script deletes all the regular files, not the root directories, with a .js extension that are present in the current directory and all its subfolders
+The 11-directories script counts the number of directories and sub-directories in the current directory. The current and parent directories are not taken into account, and hidden directories counted
