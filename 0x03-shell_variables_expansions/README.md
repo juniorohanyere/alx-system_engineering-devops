@@ -13,3 +13,4 @@ The 11-binary_to_decimal script converts a number from base 2 to base 10
 The 12-combinations script prints all possible combinations of two letters, except oo
 The 13-print_float script prints a number with two decimal places, followed by a new line
 The 100-decimal_to_hexadecimal script converts a number from base 10 to base 16
+The 101-rot13 script encodes and decodes text using the rot13 encryption. Assuming ASCII
