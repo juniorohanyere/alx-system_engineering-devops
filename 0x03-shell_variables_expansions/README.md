@@ -4,3 +4,4 @@ The 2-path script adds /action to the PATH. /action would be the lasts directory
 The 3-paths script counts the number of the directories in the path
 The 4-global_variables script lists environment variables
 The 5-local_variables script lists all local variables and environment variables, and functions
+The 6-create_local_variable script creates a new local variable with a name: BEST and a value: School
