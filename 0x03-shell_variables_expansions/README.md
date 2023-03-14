@@ -10,3 +10,4 @@ The 8-true_knowledge script prints the result of the addition of 128 with the va
 The 9-divide_and_rule script prints the result of POWER and DIVIDE, followed by a new line, given that POWER and DIVIDE are environment variables
 The 10-love_exponent_breath script displays the result of BREATH to the power LOVE
 The 11-binary_to_decimal script converts a number from base 2 to base 10
+The 12-combinations script prints all possible combinations of two letters, except oo
