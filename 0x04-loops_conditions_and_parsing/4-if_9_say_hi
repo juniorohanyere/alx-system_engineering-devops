@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# displays "Best School" until ninth time, display "Hi", and then "Best School"
+
+i=0
+
+while ((i < 10))
+do
+	if ((i == 8))
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	((i++))
+done
