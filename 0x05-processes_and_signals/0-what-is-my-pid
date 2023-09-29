@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# displays a command's own pid
+
+echo $$
