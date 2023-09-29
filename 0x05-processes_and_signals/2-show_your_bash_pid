@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# displays lines containing `bash` word, thus getting the pid of a bash shell
+# shellcheck disable=SC2009
+
+ps -aux | grep bash
