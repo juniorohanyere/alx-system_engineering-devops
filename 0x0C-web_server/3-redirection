@@ -22,10 +22,10 @@ new_config=\
 }
 "
 
-echo "$new_config" > /etc/nginx/sites-available/default
+echo "$new_config" | sudo tee /etc/nginx/sites-available/default > /dev/null
 if [ "$(pgrep nginx)" -le 0 ];
 then
-    service nginx start
+    sudo service nginx start;
 else
-    service nginx restart
-fi;
+    sudo service nginx restart;
+fi
