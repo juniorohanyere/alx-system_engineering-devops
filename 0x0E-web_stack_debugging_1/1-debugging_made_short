@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # configures a web server
 
-sudo sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
-sudo service nginx restart
-sudo pkill -o nginx
+sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
+service nginx restart
+echo "" > /run/nginx.pid
