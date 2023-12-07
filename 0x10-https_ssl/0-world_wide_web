@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# configures a domain zone to include subdomain www
+
+if [ "$#" = 1 ]
+then
+    subs=("www" "lb-01" "web-01" "web-02")
+
+    for sub in "${subs[@]}"
+    do
+        rec=$(dig "$sub"."$1" | grep -A1 'ANSWER SECTION' | tail -1 | awk '{print $4}')
+        dest=$(dig "$sub"."$1" | grep -A1 'ANSWER SECTION' | tail -1 | awk '{print $5}')
+
+        echo "The subdomain $sub is a $rec record and points to $dest"
+    done
+
+elif [ "$#" = 2 ]
+then
+    rec=$(dig "$2"."$1" | grep -A1 'ANSWER SECTION' | tail -1 | awk '{print $4}')
+    dest=$(dig "$2"."$1" | grep -A1 'ANSWER SECTION' | tail -1 | awk '{print $5}')
+
+    echo "The subdomain $2 is a $rec record and points to $dest"
+fi
