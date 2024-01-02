@@ -8,6 +8,9 @@ import requests
 
 
 def main(args):
+    '''function that returns information using REST API
+    '''
+
     if len(args) > 1:
         usr = args[1]
         url = "https://jsonplaceholder.typicode.com"
