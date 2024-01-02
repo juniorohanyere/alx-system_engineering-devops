@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 '''python script to export data in the CSV format
 '''
 
