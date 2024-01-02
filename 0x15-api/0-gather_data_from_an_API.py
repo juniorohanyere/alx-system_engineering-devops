@@ -6,6 +6,7 @@ information about his/her TODO list progress
 import sys
 import requests
 
+
 def main(args):
     if len(args) > 1:
         usr = args[1]
